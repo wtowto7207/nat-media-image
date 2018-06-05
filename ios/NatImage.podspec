@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "NatImage"
-  s.version      = "0.0.7"
+  s.name         = "DuoNatImage"
+  s.version      = "0.0.8"
   s.summary      = "Nat.js Module: Image."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/natjs/nat-media-image.git", :tag => "0.0.7" }
+  s.source       = { :git => "https://github.com/wtowto7207/nat-media-image.git", :tag => "0.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "TZImagePickerController", "~> 1.8.3"
+  s.dependency "TZImagePickerController", "~> 1.9.8"
   s.dependency 'MBProgressHUD', '~> 1.0.0'
   s.dependency 'DACircularProgress', '~> 2.3'
   s.dependency 'SDWebImage', '~> 3.7.5'
